@@ -1,4 +1,4 @@
-package com.sinhanil.goldchain;
+ package com.sinhanil.goldchain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +20,7 @@ public class GoldChain {
 		addBlock(secondBlock);		
 		
 		Block thirdBlock = new Block("3rd block data",secondBlock.hash);
-		addBlock(thirdBlock);
-		
+		addBlock(thirdBlock);		
 
 
 		System.out.println("Blockchain is Valid: " + isChainValid());
